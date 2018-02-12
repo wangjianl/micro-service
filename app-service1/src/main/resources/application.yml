@@ -1,0 +1,17 @@
+server:
+  port: 7071
+spring:
+  application:
+    name: app-service1
+
+eureka:
+  client:
+    healthcheck:
+      enabled: false
+    service-url:
+      defaultZone: http://localhost:7070/eureka/
+  instance:
+    prefer-ip-address: true
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+    lease-renewal-interval-in-seconds: 3
