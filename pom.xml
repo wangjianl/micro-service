@@ -11,7 +11,11 @@
 
     <modules>
         <module>eureka-server</module>
+        <module>app-service1</module>
+        <module>app-service2</module>
+        <module>zuul-service</module>
     </modules>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -29,6 +33,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
