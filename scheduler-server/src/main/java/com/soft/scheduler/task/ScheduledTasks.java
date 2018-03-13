@@ -1,4 +1,4 @@
-package com.soft.scheduler.config;
+package com.soft.scheduler.task;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
