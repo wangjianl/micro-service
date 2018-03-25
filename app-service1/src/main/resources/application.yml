@@ -9,7 +9,7 @@ eureka:
     healthcheck:
       enabled: false
     service-url:
-      defaultZone: http://localhost:7070/eureka/
+      defaultZone: http://127.0.0.1:7070/eureka/
   instance:
     prefer-ip-address: true
     statusPageUrlPath: /info

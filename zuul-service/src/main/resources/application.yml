@@ -12,7 +12,4 @@ server:
 spring:
   application:
     name: service-zuul
-#zuul:
-#  routes:
-#    app-service1 : /api-a/**
-#    app-service2 : /api-b/**
+

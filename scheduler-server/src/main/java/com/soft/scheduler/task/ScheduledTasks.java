@@ -25,7 +25,7 @@ public class ScheduledTasks {
     /**
      * 以fixedRate来固定执行定时任务,而不关心任务执行情况
      */
-    @Scheduled(fixedRate = 2000)
+    @Scheduled(fixedRate = 10000)
     public void scheduleTaskWithFixedRate() {
         logger.info("Current Thread : {} , Fixed Rate Task :: Execution Time - {}",Thread.currentThread().getName(),dateTimeFormatter.format(LocalDateTime.now()));
     }

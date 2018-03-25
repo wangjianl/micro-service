@@ -23,6 +23,7 @@ import java.io.IOException;
 @RequestMapping("/app1")
 public class AppServiceController {
 
+
     @RequestMapping(value = "/getMessage",method = RequestMethod.GET)
     public String shenshou(){
         String reponse = String.format("current : appservice1-%s","getMessage");
