@@ -15,7 +15,7 @@
         <module>app-service2</module>
         <module>zuul-service</module>
         <module>scheduler-server</module>
-        <module>rabbitmq-hello</module>
+        <module>rabbitmq</module>
     </modules>
 
 

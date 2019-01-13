@@ -7,10 +7,10 @@ server:
 
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: false #代表不向注册中心注册自己
+    fetch-registry: false #注册中心就是维护服务实例，不需要去捡索服务
     serviceUrl:
-       defaultZone: http://127.0.0.1:${server.port}/eureka/
+       defaultZone: http://localhost:${server.port}/eureka/
 
 security:
   user:
