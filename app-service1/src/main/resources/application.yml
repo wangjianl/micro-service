@@ -1,8 +1,15 @@
 server:
   port: 7071
+
 spring:
   application:
     name: app-service1
+  redis:
+    database : 5
+    host: rabbitmq.ptmind.com
+    port: 20173
+    password: ptmind2016
+    timeout: 0
 
 eureka:
   client:
@@ -15,3 +22,4 @@ eureka:
     statusPageUrlPath: /info
     healthCheckUrlPath: /health
     lease-renewal-interval-in-seconds: 3
+
