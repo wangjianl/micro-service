@@ -1,25 +1,11 @@
 server:
   port: 7071
-
 spring:
   application:
     name: app-service1
-  redis:
-    database : 5
-    host: rabbitmq.ptmind.com
-    port: 20173
-    password: ptmind2016
-    timeout: 0
 
 eureka:
   client:
-    healthcheck:
-      enabled: false
-    service-url:
+    serviceUrl:
       defaultZone: http://127.0.0.1:7070/eureka/
-  instance:
-    prefer-ip-address: true
-    statusPageUrlPath: /info
-    healthCheckUrlPath: /health
-    lease-renewal-interval-in-seconds: 3
 

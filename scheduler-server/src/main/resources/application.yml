@@ -1,18 +1,14 @@
 server:
   port: 7074
+
 spring:
   application:
     name: scheduler-server
 
 eureka:
   client:
-    service-url:
-      defaultZone: http://localhost:7070/eureka/
-  instance:
-    prefer-ip-address: true
-    statusPageUrlPath: /info
-    healthCheckUrlPath: /health
-    lease-renewal-interval-in-seconds: 3
+    serviceUrl:
+      defaultZone: http://127.0.0.1:7070/eureka/
 
 
 
